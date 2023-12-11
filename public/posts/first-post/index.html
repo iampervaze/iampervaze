@@ -42,7 +42,7 @@
   />
 
   
-  <title>First Post - ahanger</title>
+  <title>Essentials of Blogging with Hugo! - ahanger</title>
 
   
   <meta name="theme-color" />
@@ -51,7 +51,11 @@
   
   
   
-  <meta name="description" content="This is my first post on hugo " />
+  <meta name="description" content="Here are few links and commands that will assist you in writing blog posts with hugo.
+Markdown Cheatsheet
+When setting up Hugo on a new machine, don&rsquo;t forget to run the below commands to init submodules.
+git submodule init git submodule update Clean Serve Hugo:
+hugo server --renderToDisk --gc --cleanDestinationDir  hr, .prose :where(hr):not(:where([class~=not-prose], [class~=not-prose] *)) { margin: 16px 0; } .intro { display: flex; flex-direction: row; justify-content: flex-start; align-items: start; } ." />
   <meta name="author" content="ahanger" />
   
 
@@ -176,6 +180,22 @@
   >
     
     
+    <nav class="lg:ml-12 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/"
+        >Home</a
+      >
+      
+      <a
+        class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
+        href="/about/"
+        >About</a
+      >
+      
+    </nav>
+    
 
     
   </div>
@@ -189,7 +209,7 @@
 
 <article>
   <header class="mb-16">
-    <h1 class="!my-0 pb-2.5">First Post</h1>
+    <h1 class="!my-0 pb-2.5">Essentials of Blogging with Hugo!</h1>
 
     
     <div class="text-sm antialiased opacity-60">
@@ -203,7 +223,57 @@
     
   </header>
 
-  <section><h3 id="this-is-my-first-post-on-hugo">This is my first post on hugo</h3>
+  <section><p>Here are few links and commands that will assist you in writing blog posts with hugo.</p>
+<p><a href="https://www.markdownguide.org/cheat-sheet">Markdown Cheatsheet</a></p>
+<p>When setting up Hugo on a new machine, don&rsquo;t forget to run the below commands to init submodules.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule init
+git submodule update
+</code></pre></div><p>Clean Serve Hugo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">hugo server --renderToDisk --gc --cleanDestinationDir
+</code></pre></div><style>
+    hr,
+    .prose :where(hr):not(:where([class~=not-prose], [class~=not-prose] *)) {
+        margin: 16px 0;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+    .intro>img {
+        margin: 0;
+    }
+
+    .aboutme {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .aboutme p {
+        margin: 1px;
+        font-weight: 300;
+        font-size: 16px;
+        height: auto;
+    }
+
+    .aboutme p a {
+        text-decoration: none;
+        font-weight: 300;
+    }
+</style>
+
+<hr>
+<div class="intro">
+    <img src="/img/iampervaze.png" width="100" />
+    <div class="aboutme">
+        <p>Pervaze Ahanger</p>
+        <p><a href="mailto:iampervaze@gmail.com">iampervaze@gmail.com</a></p>
+    </div>
+</div>
 </section>
 
   

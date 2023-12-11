@@ -8,12 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 29 Nov 2023 16:48:14 -0500</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
+      <title>Essentials of Blogging with Hugo!</title>
       <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Wed, 29 Nov 2023 16:48:14 -0500</pubDate>
       
       <guid>http://localhost:1313/posts/first-post/</guid>
-      <description>This is my first post on hugo </description>
+      <description>Here are few links and commands that will assist you in writing blog posts with hugo.
+Markdown Cheatsheet
+When setting up Hugo on a new machine, don&amp;rsquo;t forget to run the below commands to init submodules.
+git submodule init git submodule update Clean Serve Hugo:
+hugo server --renderToDisk --gc --cleanDestinationDir  hr, .prose :where(hr):not(:where([class~=not-prose], [class~=not-prose] *)) { margin: 16px 0; } .intro { display: flex; flex-direction: row; justify-content: flex-start; align-items: start; } .</description>
     </item>
     
   </channel>
