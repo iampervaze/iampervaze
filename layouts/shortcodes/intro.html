@@ -1,7 +1,9 @@
 <style>
-    hr, .prose :where(hr):not(:where([class~=not-prose],[class~=not-prose] *)) {
-    margin: 16px 0;
-}
+    hr,
+    .prose :where(hr):not(:where([class~=not-prose], [class~=not-prose] *)) {
+        margin: 16px 0;
+    }
+
     .intro {
         display: flex;
         flex-direction: row;
@@ -9,7 +11,7 @@
         align-items: start;
     }
 
-    .intro > img {
+    .intro>img {
         margin: 0;
     }
 
@@ -20,15 +22,18 @@
     }
 
     .aboutme p {
-    margin: 2px
-}
+        margin: 1px;
+        font-weight: 300;
+        font-size: 16px;
+        height: auto;
+    }
 </style>
 
 <hr>
 <div class="intro">
-    <img src="/img/iampervaze.png" width="100"/>
+    <img src="/img/iampervaze.png" width="100" />
     <div class="aboutme">
         <p>Pervaze Ahanger</p>
-        <p>iampervaze@gmail.com</p>
+        <p><a href="mailto:iampervaze@gmail.com">iampervaze@gmail.com</a></p>
     </div>
 </div>
