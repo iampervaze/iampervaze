@@ -1,0 +1,6 @@
+baseURL = 'https://iampervaze.github.io/'
+languageCode = 'en-us'
+title = 'ahanger'
+theme = 'hugo-paper'
+author = 'iampervaze'
+description = 'blog'
