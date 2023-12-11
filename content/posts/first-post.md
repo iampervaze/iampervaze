@@ -16,3 +16,7 @@ Clean Serve Hugo:
 ```bash
 hugo server --renderToDisk --gc --cleanDestinationDir
 ```
+
+{{< intro >}}
+
+<!-- {{< figure src="img/iampervaze.png" title="An elephant at sunset" >}} -->

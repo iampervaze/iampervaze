@@ -4,3 +4,10 @@ title = 'ahanger'
 theme = 'hugo-paper'
 author = 'iampervaze'
 description = 'blog'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = -110 # place it on first position
